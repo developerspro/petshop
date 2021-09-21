@@ -1,7 +1,8 @@
 <?php
-include "classes/Roupa.php";
+include "Layout.php";
+$layout = new Layout();
+$layout->menu("menu_principal");
+$layout->conteudo("formulario");
+$layout->rodape();
 
-$roupa = new Roupa();
 
-echo "<pre>";
-print_r($roupa);
