@@ -1,8 +1,8 @@
 <?php
 include "Layout.php";
 $layout = new Layout();
-$layout->menu("menu_principal");
-$layout->conteudo("formulario");
-$layout->rodape();
+$layout->conteudo("cabecalho");
+$layout->conteudo("login");
+$layout->conteudo("rodape");
 
 
